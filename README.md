@@ -1,2 +1,2 @@
-# jincys-gang
-Jincy's live version of the Gang Poetry app
+# gang-poetry
+Collaborative poetry play
