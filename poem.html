@@ -211,14 +211,6 @@
                   </div>
                 </template>
 
-                <!-- Future lines (not yet reached) -->
-                <template x-if="!line.is_locked && line.line_number !== currentLineNumber">
-                  <input
-                    type="text"
-                    class="line-input"
-                    disabled
-                    placeholder="———">
-                </template>
                 <!-- Inline save button -->
                 <div style="text-align: right; margin-top: 0.5rem;">
                   <button
@@ -228,6 +220,15 @@
                     x-text="saving ? 'Saving...' : 'Save'">
                   </button>
                 </div>
+
+                <!-- Future lines (not yet reached) -->
+                <template x-if="!line.is_locked && line.line_number !== currentLineNumber">
+                  <input
+                    type="text"
+                    class="line-input"
+                    disabled
+                    placeholder="———">
+                </template>
               </div>
             </div>
           </template>
