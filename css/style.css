@@ -979,10 +979,3 @@ footer {
   outline: none;
   border-color: var(--color-primary);
 }
-
-.like-count {
-  font-size: 0.8rem;
-  color: #e75480;
-  font-family: var(--font-sans);
-  margin-left: 0.5rem;
-}
